@@ -78,4 +78,4 @@ jobs:
         run: echo "This step runs unless the workflow is cancelled."
       - name: "On Cancel"
         if: ${{ cancelled() }}
-        run: echo "Workflow cancelled."
+        run: echo "Workflow cancelled 2."
